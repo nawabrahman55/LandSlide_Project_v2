@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": -38.4, "left": 14.44, "attrs": {} },
+    { "type": "wokwi-mpu6050", "id": "imu1", "top": -5.78, "left": 175.12, "attrs": {} },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": 113.9, "left": 201.4, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "esp:3V3", "imu1:VCC", "green", [ "h-28.65", "v-86.4", "h259.2", "v86.4", "h0", "v9.6" ] ],
+    [ "imu1:GND", "esp:GND.2", "black", [ "v-86.4", "h-124.72" ] ],
+    [ "imu1:SDA", "esp:21", "green", [ "v-19.2", "h-57.52", "v57.6" ] ],
+    [ "imu1:SCL", "esp:22", "green", [ "v-38.4", "h-86.32", "v48", "h-9.6" ] ],
+    [ "pot1:VCC", "esp:3V3", "red", [ "v48", "h-269.6", "v-240" ] ],
+    [ "pot1:GND", "esp:GND.1", "black", [ "v9.6", "h-220.8", "v-76.8" ] ],
+    [ "pot1:SIG", "esp:34", "green", [ "v19.2", "h-250", "v-172.8" ] ]
+  ],
+  "dependencies": {}
+}
