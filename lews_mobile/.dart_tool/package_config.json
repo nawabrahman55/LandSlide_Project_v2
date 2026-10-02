@@ -68,6 +68,12 @@
       "languageVersion": "3.7"
     },
     {
+      "name": "fixnum",
+      "rootUri": "file:///C:/Users/nawab/AppData/Local/Pub/Cache/hosted/pub.dev/fixnum-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "3.1"
+    },
+    {
       "name": "flutter",
       "rootUri": "file:///C:/src/flutter/packages/flutter",
       "packageUri": "lib/",
@@ -171,7 +177,7 @@
     },
     {
       "name": "meta",
-      "rootUri": "file:///C:/Users/nawab/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.18.3",
+      "rootUri": "file:///C:/Users/nawab/AppData/Local/Pub/Cache/hosted/pub.dev/meta-1.19.0",
       "packageUri": "lib/",
       "languageVersion": "3.5"
     },
@@ -320,8 +326,14 @@
       "languageVersion": "3.5"
     },
     {
+      "name": "uuid",
+      "rootUri": "file:///C:/Users/nawab/AppData/Local/Pub/Cache/hosted/pub.dev/uuid-4.5.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "vector_math",
-      "rootUri": "file:///C:/Users/nawab/AppData/Local/Pub/Cache/hosted/pub.dev/vector_math-2.4.0",
+      "rootUri": "file:///C:/Users/nawab/AppData/Local/Pub/Cache/hosted/pub.dev/vector_math-2.4.2",
       "packageUri": "lib/",
       "languageVersion": "3.10"
     },
